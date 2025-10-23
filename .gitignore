@@ -1,0 +1,28 @@
+# Node/React artifacts
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env
+/frontend/.env.local
+/frontend/.cache/
+
+# Legacy Node backend artifacts (kept for reference)
+/backend/node_modules/
+/backend/dist/
+/backend/.env
+
+# PHP backend secrets & runtime files
+/backend-php/.env
+/backend-php/.env.local
+/backend-php/storage/logs/*.log
+
+# Installer state
+/.installed
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+
+# Archives / temp
+*.zip
+
